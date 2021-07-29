@@ -37,3 +37,7 @@ Download this PowerBuilder demo application, and then:
 4. Copy the database connection string in the configured data source to replace the connection string in the original project. Note that the PWD in the connection string is masked. Please manually change it to the real password.
 5. Run the PowerBuilder project.
 6. You can select 'Modernization UI' to view the modernized MDI application, or select 'Tradition UI' to see the traditional MDI application. 
+
+### PowerServer Deployment
+
+The source code includes a PowerServer project. If you want to deploy it using PowerServer, you need to go to the project object, switch to the Web APIs tab, and import your own license and then you can directly deploy it. (If you current PowerBuilder login account has PowerServer license, you can choose Auto Import, otherwise, you can choose Import from file.)
