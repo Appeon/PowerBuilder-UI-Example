@@ -1,6 +1,6 @@
 # PowerBuilder-UI-Example
 
-This demo is a PowerBuilder application, developed with Appeon PowerBuilder 2021 (https://www.appeon.com/products/powerbuilder). It demonstrates techniques to modernize the look of an application. It shows two major functionalities:
+This demo is a PowerBuilder application, developed with Appeon [PowerBuilder 2021](https://www.appeon.com/products/powerbuilder). It demonstrates techniques to modernize the look of an application. It shows two major functionalities:
 
 1. Integrating the RibbonBar control into a MDI application.
    -  Load a RibbonBar XML file.
