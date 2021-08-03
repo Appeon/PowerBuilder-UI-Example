@@ -1,0 +1,219 @@
+"w_uidemo_sheet5.dw_detail": 
+{
+	"drawing": true,
+	"background-color-enabled": true,
+	"background-color": "#FFFFFF",
+	"normal-state": 
+	{
+		"border-color": "#E9ECF9"
+	},
+	"disabled-state": 
+	{
+		"border-color": "#E9ECF9"
+	},
+	"dwo-button": 
+	{
+		"drawing": true,
+		"normal-state": 
+		{
+			"border-color": "#8959EC",
+			"background-color": "#8959EC",
+			"text-font": {"color": "#FFFFFF"}
+		},
+		"hover-state": 
+		{
+			"border-color": "#A072FF",
+			"background-color": "#A072FF",
+			"text-font": {"color": "#FFFFFF"}
+		},
+		"pressed-state": 
+		{
+			"border-color": "#7547D4",
+			"background-color": "#7547D4",
+			"text-font": {"color": "#FFFFFF"}
+		},
+		"default-state": 
+		{
+			"border-color": "#8959EC",
+			"background-color": "#8959EC",
+			"text-font": {"color": "#FFFFFF"}
+		},
+		"disabled-state": 
+		{
+			"border-color": "#B49BE6",
+			"background-color": "#B49BE6",
+			"text-font": {"color": "#D7C5FC"}
+		}
+	},
+	"dwo-column": 
+	{
+		"drawing": true,
+		"border": 0,
+		"border-color": "#E4E6F2",
+		"background-color": "#FFFFFF",
+		"text-font": {"color": "#3D5067"},
+		"dropdown-type": 
+		{
+			"drawing": true,
+			"selected-row-text-color": "#000000",
+			"selected-row-background-color": "#CDE8FF",
+			"unselected-row-background-color": "#FFFFFF",
+			"normal-state": 
+			{
+				"background-color": "#FFFFFF"
+			},
+			"hover-state": 
+			{
+				"background-color": "#FFFFFF"
+			}
+		}
+	},
+	"dwo-compute": 
+	{
+		"drawing": true,
+		"border": 0,
+		"border-color": "#E7EBF2",
+		"background-color": "#FFFFFF",
+		"text-font": {"color": "#3D5067"}
+	},
+	"dwo-graph": 
+	{
+		"drawing": true,
+		"border": 0,
+		"border-color": "#E7EBF2"
+	},
+	"dwo-groupbox": 
+	{
+		"drawing": true,
+		"border": 0,
+		"border-color": "#E7EBF2",
+		"background-color": "#FFFFFF",
+		"text-font": {"color": "#3C465A"}
+	},
+	"dwo-inkpicture": 
+	{
+		"drawing": true,
+		"border": 0,
+		"border-color": "#E7EBF2"
+	},
+	"dwo-ole": 
+	{
+		"drawing": true,
+		"border": 0,
+		"border-color": "#E7EBF2"
+	},
+	"dwo-oledatabaseblob": 
+	{
+		"drawing": true,
+		"border": 0,
+		"border-color": "#E7EBF2"
+	},
+	"dwo-picture": 
+	{
+		"drawing": true,
+		"border": 0,
+		"border-color": "#E7EBF2"
+	},
+	"dwo-tableblob": 
+	{
+		"drawing": true,
+		"border": 0,
+		"border-color": "#E7EBF2"
+	},
+	"dwo-text": 
+	{
+		"drawing": true,
+		"border": 2,
+		"border-color": "#E7EBF2",
+		"background-color": "#FFFFFF",
+		"text-font": {"color": "#3D5067"}
+	},
+	"cross-style": 
+	{
+		"drawing": true,
+		"head-band": 
+		{
+			"background-color": "#64738C",
+			"dwo-text-font": 
+			{
+				"color": "#FFFFFF"
+			}
+		},
+		"detail-band": 
+		{
+			"selected-row-text-color": "#3C465A",
+			"selected-row-background-color": "#B6BECD"
+		},
+		"grid-line": 
+		{
+			"horizontal-line": true,
+			"vertical-line": true,
+			"line-color": "#E7EBF2"
+		},
+		"dwo-column": 
+		{
+			"border": 2,
+			"border-color": "#E7EBF2",
+			"background-color": "#FFFFFF",
+			"text-font": {"color": "#3C465A"}
+		},
+		"dwo-text": 
+		{
+			"border": 2,
+			"border-color": "#E7EBF2",
+			"background-color": "#FFFFFF",
+			"text-font": {"color": "#3C465A"}
+		},
+		"dwo-compute": 
+		{
+			"border": 2,
+			"border-color": "#E7EBF2",
+			"background-color": "#FFFFFF",
+			"text-font": {"color": "#333333"}
+		}
+	},
+	"grid-style": 
+	{
+		"drawing": true,
+		"head-band": 
+		{
+			"background-color": "#64738C",
+			"dwo-text-font": 
+			{
+				"color": "#FFFFFF"
+			}
+		},
+		"detail-band": 
+		{
+			"selected-row-text-color": "#3C465A",
+			"selected-row-background-color": "#B6BECD"
+		},
+		"grid-line": 
+		{
+			"horizontal-line": true,
+			"vertical-line": true,
+			"line-color": "#E7EBF2"
+		},
+		"dwo-column": 
+		{
+			"border": 2,
+			"border-color": "#E7EBF2",
+			"background-color": "#FFFFFF",
+			"text-font": {"color": "#3C465A"}
+		},
+		"dwo-text": 
+		{
+			"border": 2,
+			"border-color": "#E7EBF2",
+			"background-color": "#FFFFFF",
+			"text-font": {"color": "#3C465A"}
+		},
+		"dwo-compute": 
+		{
+			"border": 2,
+			"border-color": "#E7EBF2",
+			"background-color": "#FFFFFF",
+			"text-font": {"color": "#333333"}
+		}
+	}
+}

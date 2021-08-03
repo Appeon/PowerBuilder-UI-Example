@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<RibbonBar BuiltinTheme="0" Font="FaceName:Tahoma; FontCharSet:ansi!; TextSize:10">
+  <RibbonItems>
+    <ApplicationButton Text="MyApp" Enabled="true" Tag="MyApp" Visible="true">
+      <ApplicationMenu>
+        <Master>
+          <Item Text="Settings" PictureName="AccountSettingsBig!" Checked="false" Enabled="true" Tag="Settings" Type="0" Visible="true" Clicked="ue_MasterMenuClicked" Selected="ue_MasterMenuSelected" />
+          <Item Text="Help" PictureName="HelpBig!" Checked="false" Enabled="true" Tag="Help" Type="0" Visible="true" Selected="ue_MenuHelpSelected">
+            <Item Text="Help Contents" PictureName="HelpBig!" Checked="false" Enabled="true" Tag="HelpContents" Type="0" Visible="true" Clicked="ue_MasterMenuClicked" Selected="ue_MasterMenuSelected" />
+            <Item Text="About" PictureName="AboutBig!" Checked="false" Enabled="true" Tag="About" Type="0" Visible="true" Clicked="ue_MasterMenuClicked" Selected="ue_MasterMenuSelected" />
+          </Item>
+          <Item Text="Exit" PictureName="Exit1!" Checked="false" Enabled="true" Tag="Exit" Type="0" Visible="true" Clicked="ue_MasterMenuClicked" Selected="ue_MasterMenuSelected" />
+        </Master>
+      </ApplicationMenu>
+    </ApplicationButton>
+    <Categories>
+      <Category Text="Home" Enabled="true" Tag="Home" Visible="true">
+        <Panel Text="Tabs" PictureName="TabsSmall!" Enabled="true" Tag="Tabs" Visible="true">
+          <LargeButton Text="History" PictureName="HistoryBig!" Checked="false" DefaultCommand="false" Enabled="false" PowerTipText="Histroy" PowerTipDescription="Recent operations" Shortcut="Ctrl+Shift+H" Tag="History" Visible="true" Clicked="ue_LargeButtonClicked" Selected="ue_LargeButtonSelected">
+            <!--   <Menu>
+              <Item Text="Standard Theme" PictureName="EmployeeSmall!" Checked="false" Enabled="true" Tag="Standard" Type="0" Visible="true" Clicked="ue_SmallButtonClicked" Selected="ue_SmallButtonSelected" />
+              <Item Text="Custom Theme" PictureName="CustomerSmall!" Checked="false" Enabled="true" Tag="Custom" Type="0" Visible="true" Clicked="ue_SmallButtonClicked" Selected="ue_SmallButtonSelected" />
+            </Menu>			-->
+          </LargeButton>
+          <Group Visible="true">
+            <SmallButton Text="Close All" PictureName="CloseAllSmall!" Checked="false" DefaultCommand="true" Enabled="false" PowerTipText="Close all" PowerTipDescription="Close all tabs" Shortcut="Ctrl+Shift+C" Tag="CloseAll" Visible="true" Clicked="ue_SmallButtonClicked" Selected="ue_SmallButtonSelected" />
+          </Group>
+          <Group NewLine="true" Visible="true">
+            <SmallButton Text="Close" PictureName="CloseSmall!" Checked="false" DefaultCommand="true" Enabled="false" PowerTipText="Close" PowerTipDescription="Close tab" Tag="Close" Visible="true" Clicked="ue_SmallButtonClicked" Selected="ue_SmallButtonSelected" />
+          </Group>
+        </Panel>
+        <Panel Text="Boards" PictureName="BoardSmall!" Enabled="true" Tag="BoardsPanel" Visible="true">
+          <LargeButton Text="Standard Theme" PictureName="image\Standard_Theme.png" Checked="false" DefaultCommand="true" Enabled="true" PowerTipText="Standard Theme" PowerTipDescription="Standard Theme infomation" Tag="StandardTheme" Visible="true" Clicked="ue_LargeButtonClicked" Selected="ue_LargeButtonSelected" />
+          <LargeButton Text="Custom Theme" PictureName="image\Custom_Theme.png" Checked="false" DefaultCommand="true" Enabled="true" PowerTipText="Custom Theme" PowerTipDescription="Custom Theme infomation" Tag="CustomTheme" Visible="true" Clicked="ue_LargeButtonClicked" Selected="ue_LargeButtonSelected" />
+          <LargeButton Text="Custom Window" PictureName="image\Custom_Window.png" Checked="false" DefaultCommand="true" Enabled="true" PowerTipText="Custom Window" PowerTipDescription="Custom Window infomation" Tag="CustomWindow" Visible="true" Clicked="ue_LargeButtonClicked" Selected="ue_LargeButtonSelected" />
+          <LargeButton Text="Custom UserObject" PictureName="image\Custom_Userobject.png" Checked="false" DefaultCommand="true" Enabled="true" PowerTipText="Custom UserObject" PowerTipDescription="Custom UserObject infomation" Tag="CustomUserObject" Visible="true" Clicked="ue_LargeButtonClicked" Selected="ue_LargeButtonSelected" />
+          <LargeButton Text="Custom Datawindow" PictureName="image\Custom_Datawindow.png" Checked="false" DefaultCommand="true" Enabled="true" PowerTipText="Custom Datawindow" PowerTipDescription="Custom Datawindow infomation" Tag="CustomDatawindow" Visible="true" Clicked="ue_LargeButtonClicked" Selected="ue_LargeButtonSelected" />
+        </Panel>
+        <Panel Text="Actions" PictureName="ActionsSmall!" Enabled="true" Tag="Actions Panel" Visible="true">
+          <Group Visible="true" >
+            <SmallButton PictureName="AddSmall!" Clicked="ue_SmallButtonClicked"  Tag="Add"  Enabled="false" PowerTipText="Add" PowerTipDescription="Add a new row." Shortcut="Ctrl+A"/>
+            <SmallButton PictureName="DeleteSmall!" Clicked="ue_SmallButtonClicked"  Tag="Delete" Enabled="false" PowerTipText="Delete" PowerTipDescription="Delete currently row."  Shortcut="Ctrl+D"/>
+            <SmallButton PictureName="ModifySmall!" Clicked="ue_SmallButtonClicked"  Tag="Modify" Enabled="false" PowerTipText="Modify" PowerTipDescription="Modify currently data."  Shortcut="Ctrl+M"/>
+            <SmallButton PictureName="SaveSmall!" Clicked="ue_SmallButtonClicked"  Tag="Save" Enabled="false" PowerTipText="Save" PowerTipDescription="Save the Data."  Shortcut="Ctrl+S"/>
+          </Group>
+          <Group NewLine="true" Visible="true">
+            <SmallButton PictureName="FilterSmall!" Clicked="ue_SmallButtonClicked"  Tag="Filter" Enabled="false" PowerTipText="Filter" PowerTipDescription="Filte the Data."  />
+          </Group>
+        </Panel>
+        <Panel Text="Window" PictureName="SwitchWindowsBig!" Enabled="true" Tag="WindowPanel" Visible="true">
+          <Group Visible="true" >
+            <SmallButton PictureName="TileVertical!" Clicked="ue_SmallButtonClicked"  Tag="TileVertical"  Enabled="false" PowerTipText="Tile Vertical" PowerTipDescription="Tile Vertical." />
+            <SmallButton PictureName="TileHorizontal!" Clicked="ue_SmallButtonClicked"  Tag="TileHorizontal" Enabled="false" PowerTipText="Tile Horizontal" PowerTipDescription="Tile Horizontal" />
+            <SmallButton PictureName="Layer1!" Clicked="ue_SmallButtonClicked"  Tag="Layer" Enabled="false" PowerTipText="Layer" PowerTipDescription="Layer" />
+            <SmallButton PictureName="Cascade1!" Clicked="ue_SmallButtonClicked"  Tag="Cascade" Enabled="false" PowerTipText="Cascade" PowerTipDescription="Cascade" />
+          </Group>
+          <Group NewLine="true" Visible="true">
+            <SmallButton PictureName="ArrangeIcons1!" Clicked="ue_SmallButtonClicked"  Tag="ArrangeIcons" Enabled="false" PowerTipText="Arrange Icons" PowerTipDescription="Arrange Icons information"  />
+          </Group>
+        </Panel>
+        <Panel Text="Print" PictureName="PrintSmall!" Enabled="true" Tag="Print Panel" >
+          <LargeButton Text="Print" PictureName="PrintBig!"  Enabled="true" PowerTipText="Print" PowerTipDescription="Print infomation" Tag="Print" Clicked="ue_LargeButtonClicked" Selected="ue_LargeButtonSelected"  />
+          <Group Visible="true">
+            <SmallButton Text="Print Setup" PictureName="PreviewSmall!"  Enabled="true" PowerTipText="Print Setup" PowerTipDescription="Print setup infomation" Tag="PrintSetup" Clicked="ue_SmallButtonClicked" />
+          </Group>
+          <Group NewLine="true" Visible="true">
+            <CheckBox Text="Print Title" Checked="false" Enabled="true" PowerTipText="Print Title" PowerTipDescription="Print title information." ThreeState="false" Tag="PrintTitle" Clicked="ue_CheckBoxPrintTitleClicked" Selected="ue_CheckBoxPrintTitleSelected" />
+          </Group>
+        </Panel>      
+      </Category>
+    </Categories>
+    <TabButtons>
+      <TabButton Text="Minimize" PictureName="ArrowUpSmall!" Checked="false" DefaultCommand="true" Enabled="true" PowerTipText="Minimize" PowerTipDescription="Minimize or maximize RibbonBar." Shortcut="Ctrl+Shift+M" Tag="TabMinimize" Visible="true" Clicked="ue_TabButtonClicked" Selected="ue_TabButtonSelected"/>
+      <TabButton Text="Help" PictureName="HelpSmall!" Checked="false" DefaultCommand="true" Enabled="true" PowerTipText="Help" PowerTipDescription="Get help." Tag="TabHelp" Visible="true" Clicked="ue_TabButtonClicked" Selected="ue_TabButtonSelected"/>
+    </TabButtons>
+  </RibbonItems>
+</RibbonBar>

@@ -1,0 +1,48 @@
+"w_newui_sheet5.dw_browser": 
+{
+	"drawing": true,
+	"background-color-enabled": true,
+	"background-color": "#FFFFFF",
+	"grid-style": 
+	{
+		"drawing": true,
+		"head-band": 
+		{
+			"background-color": "#E6DEF9",
+			"dwo-text-font": {"color": "#3D5067"}
+		},
+		"detail-band": 
+		{
+			"selected-row-text-color": "#3D5067",
+			"selected-row-background-color": "#CAB9EF",
+			"unselected-row-background-color": "#FFFFFF"
+		},
+		"grid-line": 
+		{
+			"horizontal-line": true,
+			"vertical-line": true,
+			"line-color": "#E9ECF9"
+		},
+		"dwo-column": 
+		{
+			"border": 2,
+			"border-color": "#E9ECF9",
+			"background-color": "#FFFFFF",
+			"text-font": {"color": "#3D5067"}
+		},
+		"dwo-text": 
+		{
+			"border": 2,
+			"border-color": "#E9ECF9",
+			"background-color": "#FFFFFF",
+			"text-font": {"color": "#3D5067"}
+		},
+		"dwo-compute": 
+		{
+			"border": 2,
+			"border-color": "#E9ECF9",
+			"background-color": "#FFFFFF",
+			"text-font": {"color": "#3D5067"}
+		}
+	}
+}

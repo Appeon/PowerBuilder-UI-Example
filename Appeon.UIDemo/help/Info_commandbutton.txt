@@ -1,0 +1,40 @@
+"w_newui_sheet3.cb_samplecommandbutton3": 
+{
+	"drawing": true,
+	"normal-state": 
+	{
+		"border-color": "#39A459",
+		"background-color": "#39A459",
+		"text-font": {"color": "#FFFFFF"}
+	},
+	"hover-state": 
+	{
+		"border-color": "#3FB763",
+		"background-color": "#3FB763",
+		"text-font": {"color": "#FFFFFF"}
+	},
+	"pressed-state": 
+	{
+		"border-color": "#359953",
+		"background-color": "#359953",
+		"text-font": {"color": "#FFFFFF"}
+	},
+	"focused-state": 
+	{
+		"border-color": "#3FB763",
+		"background-color": "#3FB763",
+		"text-font": {"color": "#FFFFFF"}
+	},
+	"default-state": 
+	{
+		"border-color": "#39A459",
+		"background-color": "#39A459",
+		"text-font": {"color": "#FFFFFF"}
+	},
+	"disabled-state": 
+	{
+		"border-color": "#79C38F",
+		"background-color": "#79C38F",
+		"text-font": {"color": "#B6E0C2"}
+	}
+}

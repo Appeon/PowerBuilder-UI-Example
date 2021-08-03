@@ -1,0 +1,24 @@
+"w_uidemo_sheet3.rb_onleave": 
+{
+	"drawing": true,
+	"normal-state": 
+	{
+		"text-font": {"color": "#43C0E4"}
+	},
+	"hover-state": 
+	{
+		"text-font": {"color": "#43C0E4"}
+	},
+	"pressed-state": 
+	{
+		"text-font": {"color": "#43C0E4"}
+	},
+	"focused-state": 
+	{
+		"text-font": {"color": "#43C0E4"}
+	},
+	"disabled-state": 
+	{
+		"text-font": {"color": "#9DE7FC"}
+	}
+}
