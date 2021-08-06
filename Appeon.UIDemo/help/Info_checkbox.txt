@@ -1,3 +1,10 @@
+﻿/*
+Here it shows how to use custom theme color for the GroupBox and CheckBox on the window.
+*/
+
+/*
+1. You can use the syntax {window control name}.{xxx}.{control name} to set custom theme color for the border color, background color and text font for the GroupBox control used for different purposes.
+*/
 "w_newui_sheet3.gb_day": 
 {
 	"drawing": true,
@@ -15,6 +22,9 @@
 		"text-font": {"color": "#ADCCFF"}
 	}
 },
+/*
+2. You can use the syntax {window control name}.{xxx}.{control name} to set custom theme color for the text font for the CheckBox control used for different purposes.
+*/
 "w_newui_sheet3.cbx_saturday": 
 {
 	"drawing": true,

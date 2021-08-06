@@ -52,44 +52,43 @@
 			"border-color": "#F5F6FC"
 		}
 	},
-    "w_newui_sheet2$commandbutton":
-    {
+    "w_newui_sheet2$commandbutton":{
 		"drawing":true,
 		"normal-state":
 		{
-			"border-color":"#666FE8",
-			"background-color":"#666FE8",
+			"border-color":"#286AFF",
+			"background-color":"#286AFF",
 			"text-font":{"color":"#FFFFFF"}
 		},
 		"hover-state":
 		{
-			"border-color":"#7079F4",
-			"background-color":"#7079F4",
+			"border-color":"#3D79FF",
+			"background-color":"#3D79FF",
 			"text-font":{"color":"#FFFFFF"}
 		},
 		"pressed-state":
 		{
-			"border-color":"#6169E0",
-			"background-color":"#6169E0",
+			"border-color":"#1D60F6",
+			"background-color":"#1D60F6",
 			"text-font":{"color":"#FFFFFF"}
 		},
 		"focused-state":
 		{
-			"border-color":"#7079F4",
-			"background-color":"#7079F4",
+			"border-color":"#3D79FF",
+			"background-color":"#3D79FF",
 			"text-font":{"color":"#FFFFFF"}
 		},
 		"default-state":
 		{
-			"border-color":"#666FE8",
-			"background-color":"#666FE8",
+			"border-color":"#286AFF",
+			"background-color":"#286AFF",
 			"text-font":{"color":"#FFFFFF"}
 		},
 		"disabled-state":
 		{
-			"border-color":"#A1A6E7",
-			"background-color":"#A1A6E7",
-			"text-font":{"color":"#C6CAFF"}
+			"border-color":"#7FA6FF",
+			"background-color":"#7FA6FF",
+			"text-font":{"color":"#AEC7FF"}
 		}
 	},
 	"w_newui_sheet2.uo_person.dw_browser": {
@@ -122,22 +121,22 @@
 	"w_newui_sheet2.uo_person.cb_save": {
 		"drawing": true,
 		"normal-state": {
-			"border-color": "#28D093",
-			"background-color": "#28D093",
+			"border-color": "#2CB469",
+			"background-color": "#2CB469",
 			"text-font": {
 				"color": "#FFFFFF"
 			}
 		},
 		"hover-state": {
-			"border-color": "#2CE09F",
-			"background-color": "#2CE09F",
+			"border-color": "#41CB7F",
+			"background-color": "#41CB7F",
 			"text-font": {
 				"color": "#FFFFFF"
 			}
 		},
 		"pressed-state": {
-			"border-color": "#25C289",
-			"background-color": "#25C289",
+			"border-color": "#21A45B",
+			"background-color": "#21A45B",
 			"text-font": {
 				"color": "#FFFFFF"
 			}
@@ -202,43 +201,74 @@
 		"normal-state": {
 			"border-color": "#E9ECF9"
 		},
-		"dwo-button": {
+        "dwo-button": {
+            "drawing": true,
+            "normal-state": {
+                "border-color": "#286AFF",
+                "background-color": "#286AFF",
+                "text-font": {
+                    "color": "#FFFFFF"
+                }
+            },
+            "hover-state": {
+                "border-color": "#3D79FF",
+                "background-color": "#3D79FF",
+                "text-font": {
+                    "color": "#FFFFFF"
+                }
+            },
+            "pressed-state": {
+                "border-color": "#1D60F6",
+                "background-color": "#1D60F6",
+                "text-font": {
+                    "color": "#FFFFFF"
+                }
+            },
+            "default-state": {
+                "border-color": "#286AFF",
+                "background-color": "#286AFF",
+                "text-font": {
+                    "color": "#FFFFFF"
+                }
+            },
+            "disabled-state": {
+                "border-color": "#7FA6FF",
+                "background-color": "#7FA6FF",
+                "text-font": {
+                    "color": "#AEC7FF"
+                }
+            }
+        },
+        "dwo-column": 
+		{
 			"drawing": true,
-			"normal-state": {
-				"border-color": "#666FE8",
-				"background-color": "#666FE8",
-				"text-font": {
-					"color": "#FFFFFF"
-				}
-			},
-			"hover-state": {
-				"border-color": "#7079F4",
-				"background-color": "#7079F4",
-				"text-font": {
-					"color": "#FFFFFF"
-				}
-			},
-			"pressed-state": {
-				"border-color": "#6169E0",
-				"background-color": "#6169E0",
-				"text-font": {
-					"color": "#FFFFFF"
-				}
-			},
-			"default-state": {
-				"border-color": "#666FE8",
-				"background-color": "#666FE8",
-				"text-font": {
-					"color": "#FFFFFF"
-				}
-			},
-			"disabled-state": {
-				"border-color": "#A1A6E7",
-				"background-color": "#A1A6E7",
-				"text-font": {
-					"color": "#C6CAFF"
+			"border": 0,
+			"border-color": "#E9ECF9",
+			"background-color": "#FFFFFF",
+			"text-font": {"color": "#3D5067"},
+			"dropdown-type": 
+			{
+				"drawing": true,
+				"selected-row-text-color": "#3C465A",
+				"selected-row-background-color": "#B6BECD",
+				"unselected-row-background-color": "#FFFFFF",
+				"normal-state": 
+				{
+					"background-color": "#FFFFFF"
+				},
+				"hover-state": 
+				{
+					"background-color": "#FFFFFF"
 				}
 			}
+		},
+        "dwo-text": 
+		{
+			"drawing": true,
+			"border": 2,
+			"border-color": "#E7EBF2",
+			"background-color": "#FFFFFF",
+			"text-font": {"color": "#3D5067"}
 		}
 	},
 	"w_newui_sheet3": {
@@ -329,81 +359,26 @@
 		"normal-state": {
 			"text-font": {
 				"color": "#42BFE3"
-			},
-			"box-images": {
-				"unchecked": {
-					"file": "checkbox-box-normal-unchecked.bmp"
-				},
-				"checked": {
-					"file": "checkbox-box-normal-checked.bmp"
-				},
-				"indeterminate": {
-					"file": "checkbox-box-normal-indeterminate.bmp"
-				}
 			}
 		},
 		"hover-state": {
 			"text-font": {
 				"color": "#42BFE3"
-			},
-			"box-images": {
-				"unchecked": {
-					"file": "checkbox-box-hover-unchecked.bmp"
-				},
-				"checked": {
-					"file": "checkbox-box-hover-checked.bmp"
-				},
-				"indeterminate": {
-					"file": "checkbox-box-hover-indeterminate.bmp"
-				}
 			}
 		},
 		"pressed-state": {
 			"text-font": {
 				"color": "#42BFE3"
-			},
-			"box-images": {
-				"unchecked": {
-					"file": "checkbox-box-pressed-unchecked.bmp"
-				},
-				"checked": {
-					"file": "checkbox-box-pressed-checked.bmp"
-				},
-				"indeterminate": {
-					"file": "checkbox-box-pressed-indeterminate.bmp"
-				}
 			}
 		},
 		"focused-state": {
 			"text-font": {
 				"color": "#42BFE3"
-			},
-			"box-images": {
-				"unchecked": {
-					"file": "checkbox-box-focused-unchecked.bmp"
-				},
-				"checked": {
-					"file": "checkbox-box-focused-checked.bmp"
-				},
-				"indeterminate": {
-					"file": "checkbox-box-focused-indeterminate.bmp"
-				}
 			}
 		},
 		"disabled-state": {
 			"text-font": {
 				"color": "#9DE7FC"
-			},
-			"box-images": {
-				"unchecked": {
-					"file": "checkbox-box-disabled-unchecked.bmp"
-				},
-				"checked": {
-					"file": "checkbox-box-disabled-checked.bmp"
-				},
-				"indeterminate": {
-					"file": "checkbox-box-disabled-indeterminate.bmp"
-				}
 			}
 		}
 	},
@@ -480,66 +455,26 @@
 		"normal-state": {
 			"text-font": {
 				"color": "#43C0E4"
-			},
-			"radio-images": {
-				"unchecked": {
-					"file": "radiobutton-radio-normal-unchecked.png"
-				},
-				"checked": {
-					"file": "radiobutton-radio-normal-checked.png"
-				}
 			}
 		},
 		"hover-state": {
 			"text-font": {
 				"color": "#43C0E4"
-			},
-			"radio-images": {
-				"unchecked": {
-					"file": "radiobutton-radio-hover-unchecked.png"
-				},
-				"checked": {
-					"file": "radiobutton-radio-hover-checked.png"
-				}
 			}
 		},
 		"pressed-state": {
 			"text-font": {
 				"color": "#43C0E4"
-			},
-			"radio-images": {
-				"unchecked": {
-					"file": "radiobutton-radio-pressed-unchecked.png"
-				},
-				"checked": {
-					"file": "radiobutton-radio-pressed-checked.png"
-				}
 			}
 		},
 		"focused-state": {
 			"text-font": {
 				"color": "#43C0E4"
-			},
-			"radio-images": {
-				"unchecked": {
-					"file": "radiobutton-radio-focused-unchecked.png"
-				},
-				"checked": {
-					"file": "radiobutton-radio-focused-checked.png"
-				}
 			}
 		},
 		"disabled-state": {
 			"text-font": {
 				"color": "#9DE7FC"
-			},
-			"radio-images": {
-				"unchecked": {
-					"file": "radiobutton-radio-disabled-unchecked.png"
-				},
-				"checked": {
-					"file": "radiobutton-radio-disabled-checked.png"
-				}
 			}
 		}
 	},
@@ -583,72 +518,6 @@
 			"separator-width": 2,
 			"separator-color": "#39A459",
 			"background-color": "#FFFFFF"
-		},
-		"spin": {
-			"normal-state": {
-				"images": {
-					"top-button": {
-						"file": "tab-spin-top-button-normal.bmp"
-					},
-					"bottom-button": {
-						"file": "tab-spin-bottom-button-normal.bmp"
-					},
-					"left-button": {
-						"file": "tab-spin-left-button-normal.bmp"
-					},
-					"right-button": {
-						"file": "tab-spin-right-button-normal.bmp"
-					}
-				}
-			},
-			"hover-state": {
-				"images": {
-					"top-button": {
-						"file": "tab-spin-top-button-hover.bmp"
-					},
-					"bottom-button": {
-						"file": "tab-spin-bottom-button-hover.bmp"
-					},
-					"left-button": {
-						"file": "tab-spin-left-button-hover.bmp"
-					},
-					"right-button": {
-						"file": "tab-spin-right-button-hover.bmp"
-					}
-				}
-			},
-			"pressed-state": {
-				"images": {
-					"top-button": {
-						"file": "tab-spin-top-button-pressed.bmp"
-					},
-					"bottom-button": {
-						"file": "tab-spin-bottom-button-pressed.bmp"
-					},
-					"left-button": {
-						"file": "tab-spin-left-button-pressed.bmp"
-					},
-					"right-button": {
-						"file": "tab-spin-right-button-pressed.bmp"
-					}
-				}
-			},
-			"disabled-state": {
-				"images": {
-					"top-button": {
-						"file": "tab-spin-top-button-disabled.bmp"
-					},
-					"bottom-button": {
-						"file": "tab-spin-bottom-button-disabled.bmp"
-					},
-					"left-button": {
-						"file": "tab-spin-left-button-disabled.bmp"
-					},
-					"right-button": {
-						"file": "tab-spin-right-button-disabled.bmp"
-					}
-				}
-			}
 		}
 	},
 	"w_newui_sheet3.tab_custom.tabpage_custom.htb_custom": {
@@ -660,47 +529,6 @@
 			"normal-state": {
 				"foreground-color": "#39A459",
 				"background-color": "#CBD7CF"
-			}
-		},
-		"thumb": {
-			"normal-state": {
-				"images": {
-					"top-thumb": {
-						"file": "htrackbar-top-thumb-normal.png"
-					},
-					"bottom-thumb": {
-						"file": "htrackbar-bottom-thumb-normal.png"
-					},
-					"both-thumb": {
-						"file": "htrackbar-both-thumb-normal.png"
-					}
-				}
-			},
-			"hover-state": {
-				"images": {
-					"top-thumb": {
-						"file": "htrackbar-top-thumb-hover.png"
-					},
-					"bottom-thumb": {
-						"file": "htrackbar-bottom-thumb-hover.png"
-					},
-					"both-thumb": {
-						"file": "htrackbar-both-thumb-hover.png"
-					}
-				}
-			},
-			"pressed-state": {
-				"images": {
-					"top-thumb": {
-						"file": "htrackbar-top-thumb-pressed.png"
-					},
-					"bottom-thumb": {
-						"file": "htrackbar-bottom-thumb-pressed.png"
-					},
-					"both-thumb": {
-						"file": "htrackbar-both-thumb-pressed.png"
-					}
-				}
 			}
 		}
 	},
@@ -716,48 +544,75 @@
 			"border-color": "#E7EBF2"
 		}
 	},
-	"u_custom$commandbutton": {
+	"w_newui_sheet4$commandbutton": {
 		"drawing": true,
 		"normal-state": {
-			"border-color": "#FF0000",
-			"background-color": "#FF0000",
+			"border-color": "#F2A717",
+			"background-color": "#F2A717",
 			"text-font": {
 				"color": "#FFFFFF"
 			}
 		},
 		"hover-state": {
-			"border-color": "#349AFF",
-			"background-color": "#349AFF",
+			"border-color": "#FFBC3A",
+			"background-color": "#FFBC3A",
 			"text-font": {
 				"color": "#FFFFFF"
 			}
 		},
 		"pressed-state": {
-			"border-color": "#146EC8",
-			"background-color": "#146EC8",
+			"border-color": "#E19607",
+			"background-color": "#E19607",
 			"text-font": {
 				"color": "#FFFFFF"
 			}
 		},
 		"focused-state": {
-			"border-color": "#349AFF",
-			"background-color": "#349AFF",
+			"border-color": "#FFBC3A",
+			"background-color": "#FFBC3A",
 			"text-font": {
 				"color": "#FFFFFF"
 			}
 		},
 		"default-state": {
-			"border-color": "#1E8CFA",
-			"background-color": "#1E8CFA",
+			"border-color": "#F2A717",
+			"background-color": "#F2A717",
 			"text-font": {
 				"color": "#FFFFFF"
 			}
 		},
 		"disabled-state": {
-			"border-color": "#2D3E4E",
-			"background-color": "#2D3E4E",
+			"border-color": "#FAD080",
+			"background-color": "#FAD080",
 			"text-font": {
-				"color": "#617282"
+				"color": "#FFEAC2"
+			}
+		}
+	},
+	"w_newui_sheet4": {
+		"drawing": true,
+		"background-color":"#FFFFFF",
+		"title":
+		{
+			"active-state":
+			{
+				"background-color":"#FFFFFF",
+				"text-font":{"color":"#3D5067"}
+			},
+			"inactive-state":
+			{
+				"background-color":"#FFFFFF",
+				"text-font":{"color":"#3D5067"}
+			}
+		},
+		"border": {
+			"margin": [1,30,1,1],
+			"active-state": 
+			{
+				"border-color": "#E9ECF9"
+			},
+			"inactive-state": {
+				"border-color": "#E9ECF9"
 			}
 		}
 	},
@@ -792,22 +647,22 @@
 	"u_custom.cb_save": {
 		"drawing": true,
 		"normal-state": {
-			"border-color": "#32AD32",
-			"background-color": "#32AD32",
+			"border-color": "#01B9D1",
+			"background-color": "#01B9D1",
 			"text-font": {
 				"color": "#FFFFFF"
 			}
 		},
 		"hover-state": {
-			"border-color": "#35C142",
-			"background-color": "#35C142",
+			"border-color": "#16CDE5",
+			"background-color": "#16CDE5",
 			"text-font": {
 				"color": "#FFFFFF"
 			}
 		},
 		"pressed-state": {
-			"border-color": "#1EA028",
-			"background-color": "#1EA028",
+			"border-color": "#00A6BC",
+			"background-color": "#00A6BC",
 			"text-font": {
 				"color": "#FFFFFF"
 			}
@@ -818,11 +673,11 @@
         "default-style": true,
         "normal-state": {
             "background-color": "#F1F9FB",
-            "border-color": "#CCCCCC"
+            "border-color": "#E7EBF2"
         },
         "disabled-state": {
             "background-color": "#F1F9FB",
-            "border-color": "#CCCCCC"
+            "border-color": "#E7EBF2"
         }
     },
     "w_newui_sheet5": {
@@ -896,6 +751,16 @@
             "text-font": { "color": "#D7C5FC" }
         }
     },
+	"w_newui_sheet5.st_detail": {
+		"drawing": true,
+		"border": 0,
+		"background-transparent": false,
+		"normal-state": 
+		{
+			"background-color": "#F8F5FF",
+			"text-font": {"color": "#3D5067"}
+		}
+	},
 	"w_newui_sheet5.dw_browser": {
 		"drawing": true,
 		"background-color-enabled": true,
@@ -1000,111 +865,16 @@
 			"text-font": {
 				"color": "#3D5067"
 			},
-			"checkbox-type": {
-				"drawing": true,
-				"normal-state": {
-					"box-images": {
-						"unchecked": {
-							"file": "checkbox-box-normal-unchecked.bmp"
-						},
-						"checked": {
-							"file": "checkbox-box-normal-checked.bmp"
-						},
-						"indeterminate": {
-							"file": "checkbox-box-normal-indeterminate.bmp"
-						}
-					}
-				},
-				"hover-state": {
-					"box-images": {
-						"unchecked": {
-							"file": "checkbox-box-hover-unchecked.bmp"
-						},
-						"checked": {
-							"file": "checkbox-box-hover-checked.bmp"
-						},
-						"indeterminate": {
-							"file": "checkbox-box-hover-indeterminate.bmp"
-						}
-					}
-				}
-			},
 			"dropdown-type": {
 				"drawing": true,
 				"selected-row-text-color": "#000000",
 				"selected-row-background-color": "#CDE8FF",
 				"unselected-row-background-color": "#FFFFFF",
 				"normal-state": {
-					"background-color": "#FFFFFF",
-					"arrow-image": {
-						"file": "dropdownlistbox-arrow-normal.png"
-					}
+					"background-color": "#FFFFFF"
 				},
 				"hover-state": {
-					"background-color": "#FFFFFF",
-					"arrow-image": {
-						"file": "dropdownlistbox-arrow-hover.png"
-					}
-				}
-			},
-			"editmask-type": {
-				"drawing": true,
-				"spin": {
-					"normal-state": {
-						"images": {
-							"top-button": {
-								"file": "dwo-editmask-spin-top-button-normal.png"
-							},
-							"bottom-button": {
-								"file": "dwo-editmask-spin-bottom-button-normal.png"
-							}
-						}
-					},
-					"hover-state": {
-						"images": {
-							"top-button": {
-								"file": "dwo-editmask-spin-top-button-hover.png"
-							},
-							"bottom-button": {
-								"file": "dwo-editmask-spin-bottom-button-hover.png"
-							}
-						}
-					}
-				},
-				"dropdownarrow": {
-					"normal-state": {
-						"arrow-image": {
-							"file": "dropdownlistbox-arrow-normal.png"
-						}
-					},
-					"hover-state": {
-						"arrow-image": {
-							"file": "dropdownlistbox-arrow-hover.png"
-						}
-					}
-				}
-			},
-			"radiobuttons-type": {
-				"drawing": true,
-				"normal-state": {
-					"radio-images": {
-						"unchecked": {
-							"file": "radiobutton-radio-normal-unchecked.png"
-						},
-						"checked": {
-							"file": "radiobutton-radio-normal-checked.png"
-						}
-					}
-				},
-				"hover-state": {
-					"radio-images": {
-						"unchecked": {
-							"file": "radiobutton-radio-hover-unchecked.png"
-						},
-						"checked": {
-							"file": "radiobutton-radio-hover-checked.png"
-						}
-					}
+					"background-color": "#FFFFFF"
 				}
 			}
 		},

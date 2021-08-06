@@ -36,7 +36,6 @@ Download this PowerBuilder demo application, and then:
 3. Configure the ODBC data source.
 4. Copy the database connection string in the configured data source to replace the connection string in the original project. Note that the PWD in the connection string is masked. Please manually change it to the real password.
 5. Run the PowerBuilder project.
-6. You can select 'Modern UI' to view the modernized MDI application, or select 'Traditional UI' to see the traditional MDI application. 
 
 ### PowerServer Deployment
 

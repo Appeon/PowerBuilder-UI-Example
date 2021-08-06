@@ -1,3 +1,15 @@
+﻿/*
+Here it shows how to use custom theme for all the controls on a UserObject.
+
+This window is not like other windows which configured the custom theme code starting with the window name, instead, here it starts with the UserObject name directly.
+
+The current sample window demonstrates the custom theme functionality on different UserObjects separately, for example, Search UserObject, DataWindow object, CommandButton object, etc.
+*/
+
+
+/*
+1.You can use the syntax {UserObject control name} to set custom theme for the background-color and border-color of a UserOject used for different purposes.
+*/
 "u_custom": 
 {
 	"drawing": true,
@@ -13,6 +25,9 @@
 		"border-color": "#E7EBF2"
 	}
 },
+/*
+2. You can use the syntax {UserObject control name}.{xxx}.{control name} to set custom theme for the background-color, header band and detail band of a Grid DataWindow on the window.
+*/
 "u_custom.dw_browser": 
 {
 	"background-color-enabled": true,
@@ -46,28 +61,34 @@
 		}
 	}
 },
+/*
+3. You can use the syntax {UserObject control name}.{xxx}.{control name} to set custom theme for properties like the border color, background color and text font for a CommandButton on the UserObject.
+*/
 "u_custom.cb_save": 
 {
-	"drawing": true,
-	"normal-state": 
-	{
-		"border-color": "#32AD32",
-		"background-color": "#32AD32",
-		"text-font": {"color": "#FFFFFF"}
-	},
-	"hover-state": 
-	{
-		"border-color": "#35C142",
-		"background-color": "#35C142",
-		"text-font": {"color": "#FFFFFF"}
-	},
-	"pressed-state": 
-	{
-		"border-color": "#1EA028",
-		"background-color": "#1EA028",
-		"text-font": {"color": "#FFFFFF"}
-	}
+		"drawing": true,
+		"normal-state": 
+		{
+			"border-color": "#01B9D1",
+			"background-color": "#01B9D1",
+			"text-font": {"color": "#FFFFFF"}
+		},
+		"hover-state": 
+		{
+			"border-color": "#16CDE5",
+			"background-color": "#16CDE5",
+			"text-font": {"color": "#FFFFFF"}
+		},
+		"pressed-state": 
+		{
+			"border-color": "#00A6BC",
+			"background-color": "#00A6BC",
+			"text-font": {"color": "#FFFFFF"}
+		}
 },
+/*
+4. You can use the syntax {UserObject control name}.{xxx}.{control name} to set custom theme for properties like the border color, background color for a UserObject used for different purposes on the UserObject.
+*/
 "u_custom.uo_search": 
 {
 	"drawing": true,

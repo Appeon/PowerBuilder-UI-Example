@@ -1,3 +1,10 @@
+﻿/*
+Here it shows how to use custom theme for Tab control and HTrackBar control on a window.
+*/
+
+/*
+1. You can use the syntax {window control name}.{xxx}.{control name} to set custom theme for properties like the background-color, text font and page for a Tab control on the window.
+*/
 "w_newui_sheet3.tab_custom": 
 {
 	"drawing": true,
@@ -38,6 +45,9 @@
 		"background-color": "#FFFFFF"
 	}
 },
+/*
+2. You can use the syntax {window control name}.{xxx}.{control name} to set custom theme for properties like the background-color and foreground-color for a HTrackBar control on the window.
+*/
 "w_newui_sheet3.tab_custom.tabpage_custom.htb_custom": 
 {
 	"drawing": true,

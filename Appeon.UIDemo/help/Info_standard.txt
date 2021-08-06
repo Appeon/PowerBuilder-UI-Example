@@ -1,0 +1,14 @@
+﻿/*
+Here it shows how to use different standard themes on the current window. There are four standard themes, Flat Design Blue, Flat Design Dark, Flat Design Grey and Flat Design Silver. You can select the one you like according to your actual needs.
+
+If you select the Modern UI style when launching the application, you can click the application button 'App' > Settings to switch themes to see how the current theme displays.
+
+If you selet the Traditional UI style when launching the application, you can go to UI Demo > Settings to switch the theme and check how the current theme displays.
+
+The current sample demonstrates the theme on a window itself, a UserObject, CommandButton, StaticText, SingleLineEdit control, and different types of DataWindow separately.  
+
+For the color matching of the standard themes, there is no need to customize any JSON file content, if you want to customize the color settings of a control in one standard theme, please refer to the subsequent demos regarding the associated module.
+
+Note that the UI settings of the DataWindow set by the expression or the Modify method have higher priorities than the theme file, except for the border and resizable properties, in which case, the settings on the painter have higher priorities than the theme file.
+*/
+
