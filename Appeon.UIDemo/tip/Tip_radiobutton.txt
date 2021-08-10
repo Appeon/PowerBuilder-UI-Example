@@ -2,7 +2,7 @@
 You can use the syntax {window control name}.{xxx}.{control name} to set custom theme for the text font of a RadioButton on the window.
 */
 
-"w_newui_sheet3.rb_onleave": 
+"w_sheet_customerwindow.rb_onleave": 
 {
 	"drawing": true,
 	"normal-state": 

@@ -4,7 +4,7 @@ You can use the syntax {window control name}.{xxx}.{control name} to set custom 
 Note that the UI settings of the DataWindow set by the expression or the Modify method have higher priorities than the theme file, except for the border and resizable properties, in which case, the settings on the painter have higher priorities than the theme file.
 */
 
-"w_newui_sheet5.dw_detail": 
+"w_sheet_customerdatawindow.dw_detail": 
 {
 	"drawing": true,
 	"background-color-enabled": true,

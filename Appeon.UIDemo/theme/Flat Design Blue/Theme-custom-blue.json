@@ -2,7 +2,7 @@
 	"meta-info": {
 		"version": "190"
 	},
-	"w_newui_sheet2": {
+	"w_sheet_customtheme": {
 		"drawing": true,
 		"background-color": "#F5F6FC",
 		"title": {
@@ -40,7 +40,7 @@
 			}
 		}
 	},
-	"w_newui_sheet2.uo_person": {
+	"w_sheet_customtheme.uo_person": {
 		"drawing": true,
 		"default-style": true,
 		"normal-state": {
@@ -52,7 +52,7 @@
 			"border-color": "#F5F6FC"
 		}
 	},
-    "w_newui_sheet2$commandbutton":{
+    "w_sheet_customtheme$commandbutton":{
 		"drawing":true,
 		"normal-state":
 		{
@@ -91,7 +91,7 @@
 			"text-font":{"color":"#AEC7FF"}
 		}
 	},
-	"w_newui_sheet2.uo_person.dw_browser": {
+	"w_sheet_customtheme.uo_person.dw_browser": {
 		"background-color-enabled": true,
 		"background-color": "#FFFFFF",
 		"grid-style": {
@@ -118,7 +118,7 @@
 			}
 		}
 	},
-	"w_newui_sheet2.uo_person.cb_save": {
+	"w_sheet_customtheme.uo_person.cb_save": {
 		"drawing": true,
 		"normal-state": {
 			"border-color": "#2CB469",
@@ -142,7 +142,7 @@
 			}
 		}
 	},
-	"w_newui_sheet2.uo_person.st_detail": {
+	"w_sheet_customtheme.uo_person.st_detail": {
 		"drawing": true,
 		"border": 0,
 		"background-transparent": false,
@@ -153,7 +153,7 @@
 			}
 		}
 	},
-	"w_newui_sheet2.uo_person.uo_search": {
+	"w_sheet_customtheme.uo_person.uo_search": {
 		"drawing": true,
 		"default-style": true,
 		"normal-state": {
@@ -165,7 +165,7 @@
 			"border-color": "#E4E6F2"
 		}
 	},
-	"w_newui_sheet2.uo_person.uo_search.sle_search": {
+	"w_sheet_customtheme.uo_person.uo_search.sle_search": {
 		"drawing": true,
 		"normal-state": {
 			"border-color": "#E4E6F2",
@@ -194,7 +194,7 @@
 			}
 		}
 	},
-	"w_newui_sheet2.uo_person.dw_detail": {
+	"w_sheet_customtheme.uo_person.dw_detail": {
 		"drawing": true,
 		"background-color-enabled": true,
 		"background-color": "#FFFFFF",
@@ -271,7 +271,7 @@
 			"text-font": {"color": "#3D5067"}
 		}
 	},
-	"w_newui_sheet3": {
+	"w_sheet_customerwindow": {
 		"drawing": true,
 		"background-color": "#F4F7FA",
 		"title": {
@@ -309,7 +309,7 @@
 			}
 		}
 	},
-	"w_newui_sheet3.cb_samplecommandbutton3": {
+	"w_sheet_customerwindow.cb_samplecommandbutton3": {
 		"drawing": true,
 		"normal-state": {
 			"border-color": "#39A459",
@@ -354,7 +354,7 @@
 			}
 		}
 	},
-	"w_newui_sheet3.cbx_saturday": {
+	"w_sheet_customerwindow.cbx_saturday": {
 		"drawing": true,
 		"normal-state": {
 			"text-font": {
@@ -382,7 +382,7 @@
 			}
 		}
 	},
-	"w_newui_sheet3.st_lastname": {
+	"w_sheet_customerwindow.st_lastname": {
 		"drawing": true,
 		"border": 0,
 		"background-transparent": true,
@@ -399,7 +399,7 @@
 			}
 		}
 	},
-	"w_newui_sheet3.sle_lastname": {
+	"w_sheet_customerwindow.sle_lastname": {
 		"drawing": true,
 		"normal-state": {
 			"border-color": "#C3D3E4",
@@ -432,7 +432,7 @@
 			}
 		}
 	},
-	"w_newui_sheet3.gb_day": {
+	"w_sheet_customerwindow.gb_day": {
 		"drawing": true,
 		"background-transparent": true,
 		"normal-state": {
@@ -450,7 +450,7 @@
 			}
 		}
 	},
-	"w_newui_sheet3.rb_onleave": {
+	"w_sheet_customerwindow.rb_onleave": {
 		"drawing": true,
 		"normal-state": {
 			"text-font": {
@@ -478,7 +478,7 @@
 			}
 		}
 	},
-	"w_newui_sheet3.tab_custom": {
+	"w_sheet_customerwindow.tab_custom": {
 		"drawing": true,
 		"background-color": "#F4F7FA",
 		"navigator": {
@@ -520,7 +520,7 @@
 			"background-color": "#FFFFFF"
 		}
 	},
-	"w_newui_sheet3.tab_custom.tabpage_custom.htb_custom": {
+	"w_sheet_customerwindow.tab_custom.tabpage_custom.htb_custom": {
 		"drawing": true,
 		"normal-state": {
 			"background-color": "#FFFFFF"
@@ -544,7 +544,7 @@
 			"border-color": "#E7EBF2"
 		}
 	},
-	"w_newui_sheet4$commandbutton": {
+	"w_sheet_customeruserobject$commandbutton": {
 		"drawing": true,
 		"normal-state": {
 			"border-color": "#F2A717",
@@ -589,7 +589,7 @@
 			}
 		}
 	},
-	"w_newui_sheet4": {
+	"w_sheet_customeruserobject": {
 		"drawing": true,
 		"background-color":"#FFFFFF",
 		"title":
@@ -680,7 +680,7 @@
             "border-color": "#E7EBF2"
         }
     },
-    "w_newui_sheet5": {
+    "w_sheet_customerdatawindow": {
         "drawing": true,
         "background-color": "#F8F5FF",
         "title": {
@@ -718,7 +718,7 @@
             }
         }
     },
-    "w_newui_sheet5$commandbutton": {
+    "w_sheet_customerdatawindow$commandbutton": {
         "drawing": true,
         "normal-state": {
             "border-color": "#8959EC",
@@ -751,7 +751,7 @@
             "text-font": { "color": "#D7C5FC" }
         }
     },
-	"w_newui_sheet5.st_detail": {
+	"w_sheet_customerdatawindow.st_detail": {
 		"drawing": true,
 		"border": 0,
 		"background-transparent": false,
@@ -761,7 +761,7 @@
 			"text-font": {"color": "#3D5067"}
 		}
 	},
-	"w_newui_sheet5.dw_browser": {
+	"w_sheet_customerdatawindow.dw_browser": {
 		"drawing": true,
 		"background-color-enabled": true,
 		"background-color": "#FFFFFF",
@@ -809,7 +809,7 @@
 			}
 		}
 	},
-	"w_newui_sheet5.dw_detail": {
+	"w_sheet_customerdatawindow.dw_detail": {
 		"drawing": true,
 		"background-color-enabled": true,
 		"background-color": "#FFFFFF",

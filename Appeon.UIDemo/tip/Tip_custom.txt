@@ -9,7 +9,7 @@ Note that the UI settings of the DataWindow set by the expression or the Modify 
 /*
 1.You can use the syntax {window control name} to set custom theme for the background color and text font of the window's title, statusbar, border.
 */
-"w_newui_sheet2": 
+"w_sheet_customtheme": 
 {
 	"drawing": true,
 	"background-color": "#F5F6FC",
@@ -47,7 +47,7 @@ Note that the UI settings of the DataWindow set by the expression or the Modify 
 /*
 2. You can use the syntax {window control name}.{xxx}.{control name} to set custom theme for the background-color and border-color for a UserObject used for different purposes on the window.
 */
-"w_newui_sheet2.uo_person": 
+"w_sheet_customtheme.uo_person": 
 {
 	"drawing": true,
 	"default-style": true,
@@ -65,7 +65,7 @@ Note that the UI settings of the DataWindow set by the expression or the Modify 
 /*
 3. You can use the syntax {window control name}${control name} to set custom theme for the border color, background color and text font for a CommandButton control used for different purposes on the window.
 */
-"w_newui_sheet2$commandbutton":
+"w_sheet_customtheme$commandbutton":
 {
 	"drawing":true,
 	"normal-state":
@@ -108,7 +108,7 @@ Note that the UI settings of the DataWindow set by the expression or the Modify 
 /*
 4. You can use the syntax {window control name}.{xxx}.{control name} to set custom theme for the background-color, header band and detail band for a Grid style DataWindow.
 */
-"w_newui_sheet2.uo_person.dw_browser": 
+"w_sheet_customtheme.uo_person.dw_browser": 
 {
 	"background-color-enabled": true,
 	"background-color": "#FFFFFF",
@@ -143,7 +143,7 @@ Note that the UI settings of the DataWindow set by the expression or the Modify 
 /*
 5. You can use the syntax {window control name}.{xxx}.{control name} to set custom theme for the border color, background color and text font for a specific CommandButton on the window.
 */
-"w_newui_sheet2.uo_person.cb_save": 
+"w_sheet_customtheme.uo_person.cb_save": 
 {
 	"drawing": true,
 	"normal-state": 
@@ -168,7 +168,7 @@ Note that the UI settings of the DataWindow set by the expression or the Modify 
 /*
 6. You can use the syntax {window control name}.{xxx}.{control name} to set custom theme for the background-color and text font for a StaticText used for different purposes on the window.
 */
-"w_newui_sheet2.uo_person.st_detail": 
+"w_sheet_customtheme.uo_person.st_detail": 
 {
 	"drawing": true,
 	"border": 0,
@@ -182,7 +182,7 @@ Note that the UI settings of the DataWindow set by the expression or the Modify 
 /*
 7. You can use the syntax {window control name}.{xxx}.{control name} to set custom theme for properites like the background-color and border color for a UserObject used for different purposes on the window.
 */
-"w_newui_sheet2.uo_person.uo_search": 
+"w_sheet_customtheme.uo_person.uo_search": 
 {
 	"drawing": true,
 	"default-style": true,
@@ -200,7 +200,7 @@ Note that the UI settings of the DataWindow set by the expression or the Modify 
 /*
 8. You can use the syntax {window control name}.{xxx}.{control name} to set custom theme for properites like the border-color, background-color and text font for a SingleLineEdit used for different purposes on the window.
 */
-"w_newui_sheet2.uo_person.uo_search.sle_search": 
+"w_sheet_customtheme.uo_person.uo_search.sle_search": 
 {
 	"drawing": true,
 	"normal-state": 
@@ -229,7 +229,7 @@ Note that the UI settings of the DataWindow set by the expression or the Modify 
 /*
 9. You can use the syntax {window control name}.{xxx}.{control name} to set custom theme for properites like the background-color and button for a DataWindow on the window.
 */
-"w_newui_sheet2.uo_person.dw_detail": 
+"w_sheet_customtheme.uo_person.dw_detail": 
 {
 	"drawing": true,
 	"background-color-enabled": true,

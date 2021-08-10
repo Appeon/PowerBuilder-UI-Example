@@ -2,7 +2,7 @@
 You can use the syntax {window control name}.{xxx}.{control name} to set a custom theme color for the border color, background color and text font for the CommandButton control used for different purposes.
 */
 
-"w_newui_sheet3.cb_samplecommandbutton3": 
+"w_sheet_customerwindow.cb_samplecommandbutton3": 
 {
 	"drawing": true,
 	"normal-state": 

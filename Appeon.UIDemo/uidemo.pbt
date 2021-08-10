@@ -3,5 +3,5 @@ Save Format v3.0(19990112)
 @end;
 appname "uidemo";
 applib "uidemo.pbl";
-LibList "uidemo.pbl;common.pbl;feature.pbl";
+LibList "uidemo.pbl;feature.pbl";
 type "pb";

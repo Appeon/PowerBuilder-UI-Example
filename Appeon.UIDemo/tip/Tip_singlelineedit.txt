@@ -5,7 +5,7 @@ Here it shows how to use custom theme for StaticText control and SingleLineEdit 
 /*
 1. You can use the syntax {window control name}.{xxx}.{control name} to set custom theme for properties like the background-color and text font for a StaticText on the window.
 */
-"w_newui_sheet3.st_lastname": 
+"w_sheet_customerwindow.st_lastname": 
 {
 	"drawing": true,
 	"border": 0,
@@ -24,7 +24,7 @@ Here it shows how to use custom theme for StaticText control and SingleLineEdit 
 /*
 2. You can use the syntax {window control name}.{xxx}.{control name} to set custom theme for properties like the border-color, background-color and text font for a SingleLineEdit on the window.
 */
-"w_newui_sheet3.sle_lastname": 
+"w_sheet_customerwindow.sle_lastname": 
 {
 	"drawing": true,
 	"normal-state": 

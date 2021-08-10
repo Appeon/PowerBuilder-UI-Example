@@ -2,7 +2,7 @@
 You can use the syntax {window control name}.{xxx}.{control name} to set custom theme for properties like the background-color, header band and detail band for a Grid style DataWindow on the window.
 */
 
-"w_newui_sheet5.dw_browser": 
+"w_sheet_customerdatawindow.dw_browser": 
 {
 	"drawing": true,
 	"background-color-enabled": true,
