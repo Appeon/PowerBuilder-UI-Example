@@ -32,7 +32,7 @@ The project is structured as follows.
 Download this PowerBuilder demo application, and then:
 
 1. Open the PowerBuilder project in PowerBuilder 2022.
-2. Download the database file **pbdemo2022_for_sqlanywhere.zip** from [PowerBuilder-Project-Example-Database](https://github.com/Appeon/PowerBuilder-Project-Example-Database) and restore it.
+2. Download the database file **pbdemo2021_for_sqlanywhere.zip** from [PowerBuilder-Project-Example-Database](https://github.com/Appeon/PowerBuilder-Project-Example-Database) and restore it.
 3. Configure the ODBC data source.
 4. Copy the database connection string in the configured data source to replace the connection string in the original project. Note that the PWD in the connection string is masked. Please manually change it to the real password.
 5. Run the PowerBuilder project.
