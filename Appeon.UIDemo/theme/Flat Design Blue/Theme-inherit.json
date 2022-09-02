@@ -1,0 +1,276 @@
+{
+	"meta-info": {
+		"version": "190"
+	},
+	"w_sheet_master": {
+		"drawing": true,
+		"background-color": "#FFEFD5",
+		"title": {
+			"active-state": {
+				"background-color": "#FFEFD5",
+				"text-font": {
+					"color": "#3D5067"
+				}
+			},
+			"inactive-state": {
+				"background-color": "#FFEFD5",
+				"text-font": {
+					"color": "#3D5067"
+				}
+			}
+		},
+		"statusbar": {
+			"background-color": "#C3C7CF",
+			"text-font": {
+				"color": "#3C465A"
+			}
+		},
+		"border": {
+			"margin": [
+				1,
+				30,
+				1,
+				1
+			],
+			"active-state": {
+				"border-color": "#E9ECF9"
+			},
+			"inactive-state": {
+				"border-color": "#E9ECF9"
+			}
+		}
+	},
+	"u_person_master": {
+		"drawing": true,
+		"default-style": true,
+		"normal-state": {
+			"background-color": "#FFEFD5",
+			"border-color": "#FFEFD5"
+		},
+		"disabled-state": {
+			"background-color": "#FFEFD5",
+			"border-color": "#FFEFD5"
+		}
+	},
+	"u_searchbox$singlelineedit":
+	{
+		"drawing":true,
+		"normal-state":
+		{
+			"border-color":"#999999",
+			"background-color":"#FFFFFF",
+			"text-font":{"color":"#FF0000"}
+		},
+		"hover-state":
+		{
+			"border-color":"#0078D7",
+			"background-color":"#F0F0F0",
+			"text-font":{"color":"#000000"}
+		},
+		"focused-state":
+		{
+			"border-color":"#0078D7",
+			"background-color":"#FFFFFF",
+			"text-font":{"color":"#000000"}
+		},
+		"disabled-state":
+		{
+			"border-color":"#CCCCCC",
+			"background-color":"#FFFFFF"
+		},
+		"placeholder":
+		{
+			"text-font":{"color":"#808000"}
+		}	
+	},
+  "u_person_master$commandbutton":{
+		"drawing":true,
+		"normal-state":
+		{
+			"border-color":"#D2B48C",
+			"background-color":"#D2B48C",
+			"text-font":{"color":"#FFFFFF"}
+		},
+		"hover-state":
+		{
+			"border-color":"#3D79FF",
+			"background-color":"#3D79FF",
+			"text-font":{"color":"#FFFFFF"}
+		},
+		"pressed-state":
+		{
+			"border-color":"#1D60F6",
+			"background-color":"#1D60F6",
+			"text-font":{"color":"#FFFFFF"}
+		},
+		"focused-state":
+		{
+			"border-color":"#3D79FF",
+			"background-color":"#3D79FF",
+			"text-font":{"color":"#FFFFFF"}
+		},
+		"default-state":
+		{
+			"border-color":"#D2B48C",
+			"background-color":"#D2B48C",
+			"text-font":{"color":"#FFFFFF"}
+		},
+		"disabled-state":
+		{
+			"border-color":"#7FA6FF",
+			"background-color":"#7FA6FF",
+			"text-font":{"color":"#AEC7FF"}
+		}
+	},
+	"u_person_master.dw_browser": {
+		"background-color-enabled": true,
+		"background-color": "#FFFFFF",
+		"grid-style": {
+			"drawing": true,
+			"head-band": {
+                "background-color": "#E9ECF9",
+                "dwo-text-font":{"color":"#3D5067"}
+			},
+			"detail-band": {
+                "selected-row-text-color": "#3D5067",
+                "selected-row-background-color": "#FDF5E6"
+			},
+            "grid-line": {
+                "horizontal-line": true,
+                "vertical-line": true,
+                "line-color": "#E0E4E6"
+            },
+            "dwo-column":
+			{
+				"border":2,
+				"border-color":"#404040",
+				"background-color":"#262626",
+				"text-font":{"color":"#3D5067"}
+			}
+		}
+	},
+	"u_person_master.cb_save": {
+		"drawing": true,
+		"normal-state": {
+			"border-color": "#FFA500",
+			"background-color": "#FFA500",
+			"text-font": {
+				"color": "#FFFFFF"
+			}
+		},
+		"hover-state": {
+			"border-color": "#41CB7F",
+			"background-color": "#41CB7F",
+			"text-font": {
+				"color": "#FFFFFF"
+			}
+		},
+		"pressed-state": {
+			"border-color": "#21A45B",
+			"background-color": "#21A45B",
+			"text-font": {
+				"color": "#FFFFFF"
+			}
+		}
+	},
+	"u_person_master.st_detail": {
+		"drawing": true,
+		"border": 0,
+		"background-transparent": false,
+		"normal-state": {
+			"background-color": "#FFEFD5",
+			"text-font": {
+				"color": "#3D5067"
+			}
+		}
+	},
+	"u_person_master.uo_search": {
+		"drawing": true,
+		"default-style": true,
+		"normal-state": {
+			"background-color": "#FFEFD5",
+			"border-color": "#E4E6F2"
+		},
+		"disabled-state": {
+			"background-color": "#FFEFD5",
+			"border-color": "#E4E6F2"
+		}
+	},
+	"u_person_master.dw_detail": {
+		"drawing": true,
+		"background-color-enabled": true,
+		"background-color": "#FFFFFF",
+		"normal-state": {
+			"border-color": "#E9ECF9"
+		},
+        "dwo-button": {
+            "drawing": true,
+            "normal-state": {
+                "border-color": "#D2B48C",
+                "background-color": "#D2B48C",
+                "text-font": {
+                    "color": "#FFFFFF"
+                }
+            },
+            "hover-state": {
+                "border-color": "#3D79FF",
+                "background-color": "#3D79FF",
+                "text-font": {
+                    "color": "#FFFFFF"
+                }
+            },
+            "pressed-state": {
+                "border-color": "#1D60F6",
+                "background-color": "#1D60F6",
+                "text-font": {
+                    "color": "#FFFFFF"
+                }
+            },
+            "default-state": {
+                "border-color": "#D2B48C",
+                "background-color": "#D2B48C",
+                "text-font": {
+                    "color": "#FFFFFF"
+                }
+            },
+            "disabled-state": {
+                "border-color": "#7FA6FF",
+                "background-color": "#7FA6FF",
+                "text-font": {
+                    "color": "#AEC7FF"
+                }
+            }
+        },
+        "dwo-column": 
+		{
+			"drawing": true,
+			"border": 0,
+			"border-color": "#E9ECF9",
+			"background-color": "#FFFFFF",
+			"text-font": {"color": "#3D5067"},
+			"dropdown-type": 
+			{
+				"drawing": true,
+				"selected-row-text-color": "#3C465A",
+				"selected-row-background-color": "#B6BECD",
+				"unselected-row-background-color": "#FFFFFF",
+				"normal-state": 
+				{
+					"background-color": "#FFFFFF"
+				},
+				"hover-state": 
+				{
+					"background-color": "#FFFFFF"
+				}
+			}
+		},
+        "dwo-text": 
+		{
+			"drawing": true,
+			"border": 2,
+			"border-color": "#E7EBF2",
+			"background-color": "#FFFFFF",
+			"text-font": {"color": "#3D5067"}
+		}
+	}
+}

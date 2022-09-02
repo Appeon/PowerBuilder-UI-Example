@@ -34,6 +34,7 @@
           <LargeButton Text="Custom Window" PictureName="image\Custom_Window.png" Checked="false" DefaultCommand="true" Enabled="true" PowerTipText="Custom Window" PowerTipDescription="Custom window information" Tag="CustomWindow" Visible="true" Clicked="ue_LargeButtonClicked" Selected="ue_LargeButtonSelected" />
           <LargeButton Text="Custom UserObject" PictureName="image\Custom_Userobject.png" Checked="false" DefaultCommand="true" Enabled="true" PowerTipText="Custom UserObject" PowerTipDescription="Custom userobject information" Tag="CustomUserObject" Visible="true" Clicked="ue_LargeButtonClicked" Selected="ue_LargeButtonSelected" />
           <LargeButton Text="Custom Datawindow" PictureName="image\Custom_Datawindow.png" Checked="false" DefaultCommand="true" Enabled="true" PowerTipText="Custom Datawindow" PowerTipDescription="Custom datawindow information" Tag="CustomDatawindow" Visible="true" Clicked="ue_LargeButtonClicked" Selected="ue_LargeButtonSelected" />
+          <LargeButton Text="Inherited Object" PictureName="image\Custom_Userobject.png" Checked="false" DefaultCommand="true" Enabled="true" PowerTipText="Inherited Object" PowerTipDescription="Inherited object information" Tag="InheritedObject" Visible="true" Clicked="ue_LargeButtonClicked" Selected="ue_LargeButtonSelected" />
         </Panel>
         <Panel Text="Actions" PictureName="ActionsSmall!" Enabled="true" Tag="Actions Panel" Visible="true">
           <Group Visible="true" >
