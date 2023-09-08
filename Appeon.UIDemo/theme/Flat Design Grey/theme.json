@@ -2110,6 +2110,140 @@
 			"border-color":"#B3B3B3"
 		}
 	},
+"tabbedbar":
+	{
+		"drawing":true,
+		"background-color":"#E6E6E6",
+		"separator-color":"#B3B3B3",
+		"border-bottom-color":"#C3C8D1",
+		"item":
+		{
+			"normal-state":
+			{
+				"background-color":"#E6E6E6",
+				"border-color":"#E6E6E6",
+				"text-font":{"color":"#333333"}
+			},
+			"hover-state":
+			{
+				"background-color":"# D7DADE",
+				"border-color":"#D7DADE",
+				"text-font":{"color":"#333333"}
+			},
+			"selected-state":
+			{
+				"background-color":"#C3C8D1",
+				"border-color":"#C3C8D1",
+				"text-font":{"color":"#333333"}
+			}
+		},
+		"close-button":
+		{
+			"normal-state":
+			{
+				"image":{"file":"tabbedbar-close-button-normal.png"}
+			},
+			"hover-state":
+			{
+				"image":{"file":"tabbedbar-close-button-hover.png"}
+			},
+			"pressed-state":
+			{
+				"image":{"file":"tabbedbar-close-button-pressed.png"}
+			},
+			"disabled-state":
+			{
+				"image":{"file":"tabbedbar-close-button-disabled.png"}
+			}
+		},
+		"spin":
+		{
+			"normal-state": 
+			{
+				"image":{"file":"tabbedbar-spin-normal.bmp"}
+			},
+			"hover-state":
+			{
+				"image":{"file":"tabbedbar-spin-hover.bmp"}
+			},
+			"pressed-state":
+			{
+				"image":{"file":"tabbedbar-spin-pressed.bmp"}
+			},
+			"disabled-state":
+			{
+				"image":{"file":"tabbedbar-spin-disabled.bmp"}
+			}
+		},
+		"menu":
+		{
+			"border-color":"#CCCCCC",
+			"background-color":"#FAFAFA",
+			"separator-color":"#CCCCCC",
+			"background-linear-gradient":
+			{
+				"color-stop1": "#FAFAFA",
+				"color-stop2": "#FAFAFA"
+			},
+			"item":
+			{
+				"normal-state": 
+				{
+					"border-color":"#FFFFFF",
+					"background-color":"#FFFFFF",
+					"text-font":{"color":"#333333"}
+				},
+				"hover-state":
+				{
+					"border-color":"#E6E6E6",
+					"background-color":"#E6E6E6",
+					"text-font":{"color":"#333333"}
+				},
+				"pressed-state":
+				{
+					"border-color":"#D9D9D9",
+					"background-color":"#D9D9D9",
+					"text-font":{"color":"#333333"}
+				},
+				"disabled-state":
+				{
+					"border-color":"#FFFFFF",
+					"background-color":"#FFFFFF",
+					"text-font":{"color":"#999999"}
+				}
+			},
+			"scroll-spinner":
+			{
+				"normal-state":
+				{
+					"border-color": "#CCCCCC",
+					"background-color" : "#F0F0F0",
+					"up-arrow-image" : { "file": "tabbedbar-scroll-spinnner-up.png" },
+					"down-arrow-image" : { "file": "tabbedbar-scroll-spinnner-down.png" }
+				},
+				"hover-state":
+				{
+					"border-color": "#78C2FF",
+					"background-color" : "#E6F0FA",
+					"up-arrow-image" : { "file": "tabbedbar-scroll-spinnner-up.png" },
+					"down-arrow-image" : { "file": "tabbedbar-scroll-spinnner-down.png" }
+				},
+				"pressed-state":
+				{
+					"border-color": "#63AAE5",
+					"background-color" : "#D2E4F6",
+					"up-arrow-image" : { "file": "tabbedbar-scroll-spinnner-up.png" },
+					"down-arrow-image" : { "file": "tabbedbar-scroll-spinnner-down.png" }
+				}
+			}
+		},
+		"tooltip":
+		{
+			"background-color":"#FAFAFA",
+			"border-color":"#CCCCCC",
+			"text-font":{"color":"#333333"}
+		}
+	},
   	"window": 
 	{
     		"drawing":true,
