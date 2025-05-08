@@ -1,7 +1,7 @@
 {
 	"meta-info":
 	{
-		"version":"190"
+		"version":"25.0.0.3683"
 	},
 	"checkbox":
 	{
@@ -181,11 +181,13 @@
 				"unselected-row-background-color":"#FFFFFF",				
 				"normal-state":
 				{
+					"border-color":"#CCCCCC",
 					"background-color":"#FFFFFF",
 					"arrow-image":{"file":"dropdownlistbox-arrow-normal.png"}
 				},
 				"hover-state":
 				{
+					"border-color":"#CCCCCC",
 					"background-color":"#FFFFFF",
 					"arrow-image":{"file":"dropdownlistbox-arrow-hover.png"}
 				}
@@ -310,13 +312,26 @@
 			"drawing":true,
 			"head-band":
 			{
+				"drawing_background-color":true,
 				"background-color":"#808080",
 				"dwo-text-font":{"color":"#FFFFFF"}
 			},
 			"detail-band":
 			{
+				"drawing_background-color":false,
+				"background-color":"#FFFFFF",
 				"selected-row-text-color":"#000000",
 				"selected-row-background-color":"#BFBFBF"
+			},
+			"summary-band":
+			{
+				"drawing_background-color":false,
+				"background-color":"#FFFFFF"
+			},
+			"footer-band":
+			{
+				"drawing_background-color":false,
+				"background-color":"#F0F0F0"
 			},
 			"grid-line":
 			{
@@ -351,13 +366,26 @@
 			"drawing":true,
 			"head-band":
 			{
+				"drawing_background-color":true,
 				"background-color":"#808080",
 				"dwo-text-font":{"color":"#FFFFFF"}
 			},
 			"detail-band":
 			{
+				"drawing_background-color":false,
+				"background-color":"#FFFFFF",
 				"selected-row-text-color":"#000000",
 				"selected-row-background-color":"#BFBFBF"
+			},
+			"summary-band":
+			{
+				"drawing_background-color":false,
+				"background-color":"#FFFFFF"
+			},
+			"footer-band":
+			{
+				"drawing_background-color":false,
+				"background-color":"#F0F0F0"
 			},
 			"grid-line":
 			{
@@ -385,6 +413,54 @@
 				"border-color":"#B3B3B3",
 				"background-color":"#FFFFFF",
 				"text-font":{"color":"#000000"}
+			}
+		},
+		"tabular-style":
+		{
+			"drawing":false,
+			"head-band":
+			{
+				"drawing_background-color":false,
+				"background-color":"#808080"
+			},
+			"detail-band":
+			{
+				"drawing_background-color":false,
+				"background-color":"#FFFFFF"
+			},
+			"summary-band":
+			{
+				"drawing_background-color":false,
+				"background-color":"#FFFFFF"
+			},
+			"footer-band":
+			{
+				"drawing_background-color":false,
+				"background-color":"#F0F0F0"
+			}
+		},
+		"treeview-style":
+		{
+			"drawing":false,
+			"head-band":
+			{
+				"drawing_background-color":false,
+				"background-color":"#808080"
+			},
+			"detail-band":
+			{
+				"drawing_background-color":false,
+				"background-color":"#FFFFFF"
+			},
+			"summary-band":
+			{
+				"drawing_background-color":false,
+				"background-color":"#FFFFFF"
+			},
+			"footer-band":
+			{
+				"drawing_background-color":false,
+				"background-color":"#F0F0F0"
 			}
 		}
 	},
@@ -494,6 +570,144 @@
 			"arrow-image":{"file":"dropdownlistbox-arrow-disabled.png"}
 		}
 	},
+	"tabbedbar":
+	{
+		"drawing":true,
+		"background-color":"#E6E6E6",
+		"separator-color":"#B3B3B3",
+		"border-bottom-color":"#C3C8D1",
+		"item":
+		{
+			"normal-state":
+			{
+				"background-color":"#E6E6E6",
+				"border-color":"#E6E6E6",
+				"text-font":{"color":"#333333"}
+			},
+			"hover-state":
+			{
+				"background-color":"# D7DADE",
+				"border-color":"#D7DADE",
+				"text-font":{"color":"#333333"}
+			},
+			"selected-state":
+			{
+				"background-color":"#C3C8D1",
+				"border-color":"#C3C8D1",
+				"text-font":{"color":"#333333"}
+			}
+		},
+		"close-button":
+		{
+			"normal-state":
+			{
+				"image":{"file":"tabbedbar-close-button-normal.png"}
+			},
+			"hover-state":
+			{
+				"image":{"file":"tabbedbar-close-button-hover.png"}
+			},
+			"pressed-state":
+			{
+				"image":{"file":"tabbedbar-close-button-pressed.png"}
+			},
+			"disabled-state":
+			{
+				"image":{"file":"tabbedbar-close-button-disabled.png"}
+			}
+		},
+		"spin":
+		{
+			"normal-state":
+			{
+				"image":{"file":"tabbedbar-spin-normal.bmp"},
+				"image-alltabsvisible":{"file":"tabbedbar-spin1-normal.bmp"}
+			},
+			"hover-state":
+			{
+				"image":{"file":"tabbedbar-spin-hover.bmp"},
+				"image-alltabsvisible":{"file":"tabbedbar-spin1-hover.bmp"}
+			},
+			"pressed-state":
+			{
+				"image":{"file":"tabbedbar-spin-pressed.bmp"},
+				"image-alltabsvisible":{"file":"tabbedbar-spin1-pressed.bmp"}
+			},
+			"disabled-state":
+			{
+				"image":{"file":"tabbedbar-spin-disabled.bmp"},
+				"image-alltabsvisible":{"file":"tabbedbar-spin1-disabled.bmp"}
+			}
+		},
+		"menu":
+		{
+			"border-color":"#CCCCCC",
+			"background-color":"#FAFAFA",
+			"separator-color":"#CCCCCC",
+			"background-linear-gradient":
+			{
+				"color-stop1": "#FAFAFA",
+				"color-stop2": "#FAFAFA"
+			},
+			"item":
+			{
+				"normal-state": 
+				{
+					"border-color":"#FFFFFF",
+					"background-color":"#FFFFFF",
+					"text-font":{"color":"#333333"}
+				},
+				"hover-state":
+				{
+					"border-color":"#E6E6E6",
+					"background-color":"#E6E6E6",
+					"text-font":{"color":"#333333"}
+				},
+				"pressed-state":
+				{
+					"border-color":"#D9D9D9",
+					"background-color":"#D9D9D9",
+					"text-font":{"color":"#333333"}
+				},
+				"disabled-state":
+				{
+					"border-color":"#FFFFFF",
+					"background-color":"#FFFFFF",
+					"text-font":{"color":"#999999"}
+				}
+			},
+			"scroll-spinner":
+			{
+				"normal-state":
+				{
+					"border-color": "#CCCCCC",
+					"background-color" : "#F0F0F0",
+					"up-arrow-image" : { "file": "tabbedbar-scroll-spinnner-up.png" },
+					"down-arrow-image" : { "file": "tabbedbar-scroll-spinnner-down.png" }
+				},
+				"hover-state":
+				{
+					"border-color": "#78C2FF",
+					"background-color" : "#E6F0FA",
+					"up-arrow-image" : { "file": "tabbedbar-scroll-spinnner-up.png" },
+					"down-arrow-image" : { "file": "tabbedbar-scroll-spinnner-down.png" }
+				},
+				"pressed-state":
+				{
+					"border-color": "#63AAE5",
+					"background-color" : "#D2E4F6",
+					"up-arrow-image" : { "file": "tabbedbar-scroll-spinnner-up.png" },
+					"down-arrow-image" : { "file": "tabbedbar-scroll-spinnner-down.png" }
+				}
+			}
+		},
+		"tooltip":
+		{
+			"background-color":"#FAFAFA",
+			"border-color":"#CCCCCC",
+			"text-font":{"color":"#333333"}
+		}
+	},
 	"editmask":
 	{
 		"drawing":true,
@@ -521,6 +735,10 @@
 			{
 				"border-color":"#CCCCCC",
 				"background-color":"#F0F0F0"
+			},
+			"placeholder":
+			{
+				"text-font":{"color":"#999999"}
 			}
 		},
 		"spin":
@@ -916,6 +1134,10 @@
 		{
 			"border-color":"#CCCCCC",
 			"background-color":"#F0F0F0"
+		},
+		"placeholder":
+		{
+			"text-font":{"color":"#999999"}
 		}
 	},
 	"olecontrol":
@@ -1596,6 +1818,98 @@
 				"arrow-image":{"file":"dropdown-arrow-disabled.png"}
 			}
 		},
+		"quickaccesstoolbar": 
+		{
+			"background-color": "#E6E6E6",
+			"moreitem-image": { "file": "moreitem.png" },
+			"allitemvisible-image": { "file": "allitemvisible.png" },
+			"item": 
+			{
+				"separator-color": "#A0A0A0",
+				"groupseparator-image": { "file": "groupseparator.png" },
+				"arrow-image": { "file": "dropdown-arrow.png" },
+				"normal-state": 
+				{
+					"background-color": "#E6E6E6",
+					"border-color": "#E6E6E6"
+				},
+				"hover-state": 
+				{
+					"background-color": "#E6E6E6",
+					"border-color": "#CCCCCC"
+				},
+				"pressed-state": 
+				{
+					"background-color": "#D9D9D9",
+					"border-color": "#B3B3B3"
+				},
+				"disabled-state": 
+				{
+					"background-color": "#E6E6E6",
+					"border-color": "#E6E6E6"
+				}
+			},
+			"menu": 
+			{
+				"border-color": "#D9D9D9",
+				"background-color": "#FFFFFF",
+				"separator-color": "#D9D9D9",
+				"item-custom-qat": 
+				{
+					"normal-state": 
+					{
+						"background-color": "#F0F0F0",
+						"text-font": { "color": "#333333" }
+					}
+				},
+				"item": 
+				{
+					"checked-image": { "file": "menucheck.png" },
+					"normal-state": 
+					{
+							"border-color": "#FFFFFF",
+							"background-color": "#FFFFFF",
+							"text-font": { "color": "#333333" }
+					},
+					"hover-state": 
+					{
+							"border-color": "#AAC8F0",
+							"background-color": "#E6F0FA",
+							"text-font": { "color": "#333333" }
+					},
+					"disabled-state": 
+					{
+							"border-color": "#FFFFFF",
+							"background-color": "#FFFFFF",
+							"text-font": { "color": "#999999" }
+					}
+				},
+				"scroll-spinner": 
+				{
+					"normal-state": 
+					{
+							"border-color": "#E6E6E6",
+							"background-color": "#E6E6E6",
+							"up-arrow-image": { "file": "scroll-spinner-up.png" },
+							"down-arrow-image": { "file": "scroll-spinner-down.png" }
+					},
+					"hover-state": 
+					{
+							"border-color": "#CCCCCC",
+							"background-color": "#E6E6E6",
+							"up-arrow-image": { "file": "scroll-spinner-up.png" },
+							"down-arrow-image": { "file": "scroll-spinner-down.png" }
+					},
+					"pressed-state": 
+					{
+							"border-color": "#B3B3B3",
+							"background-color": "#D9D9D9",
+							"up-arrow-image": { "file": "scroll-spinner-up.png" },
+							"down-arrow-image": { "file": "scroll-spinner-down.png" }
+					}
+				}
+			}
+		},
 		"tooltip":
 		{
 			"background-color":"#FAFAFA",
@@ -1813,7 +2127,7 @@
 		},
 		"placeholder":
 		{
-			"text-font":{"color":"#808080"}
+			"text-font":{"color":"#999999"}
 		}
 	},
 	"statichyperlink":
@@ -2108,140 +2422,6 @@
 		"normal-state":
 		{
 			"border-color":"#B3B3B3"
-		}
-	},
-"tabbedbar":
-	{
-		"drawing":true,
-		"background-color":"#E6E6E6",
-		"separator-color":"#B3B3B3",
-		"border-bottom-color":"#C3C8D1",
-		"item":
-		{
-			"normal-state":
-			{
-				"background-color":"#E6E6E6",
-				"border-color":"#E6E6E6",
-				"text-font":{"color":"#333333"}
-			},
-			"hover-state":
-			{
-				"background-color":"# D7DADE",
-				"border-color":"#D7DADE",
-				"text-font":{"color":"#333333"}
-			},
-			"selected-state":
-			{
-				"background-color":"#C3C8D1",
-				"border-color":"#C3C8D1",
-				"text-font":{"color":"#333333"}
-			}
-		},
-		"close-button":
-		{
-			"normal-state":
-			{
-				"image":{"file":"tabbedbar-close-button-normal.png"}
-			},
-			"hover-state":
-			{
-				"image":{"file":"tabbedbar-close-button-hover.png"}
-			},
-			"pressed-state":
-			{
-				"image":{"file":"tabbedbar-close-button-pressed.png"}
-			},
-			"disabled-state":
-			{
-				"image":{"file":"tabbedbar-close-button-disabled.png"}
-			}
-		},
-		"spin":
-		{
-			"normal-state": 
-			{
-				"image":{"file":"tabbedbar-spin-normal.bmp"}
-			},
-			"hover-state":
-			{
-				"image":{"file":"tabbedbar-spin-hover.bmp"}
-			},
-			"pressed-state":
-			{
-				"image":{"file":"tabbedbar-spin-pressed.bmp"}
-			},
-			"disabled-state":
-			{
-				"image":{"file":"tabbedbar-spin-disabled.bmp"}
-			}
-		},
-		"menu":
-		{
-			"border-color":"#CCCCCC",
-			"background-color":"#FAFAFA",
-			"separator-color":"#CCCCCC",
-			"background-linear-gradient":
-			{
-				"color-stop1": "#FAFAFA",
-				"color-stop2": "#FAFAFA"
-			},
-			"item":
-			{
-				"normal-state": 
-				{
-					"border-color":"#FFFFFF",
-					"background-color":"#FFFFFF",
-					"text-font":{"color":"#333333"}
-				},
-				"hover-state":
-				{
-					"border-color":"#E6E6E6",
-					"background-color":"#E6E6E6",
-					"text-font":{"color":"#333333"}
-				},
-				"pressed-state":
-				{
-					"border-color":"#D9D9D9",
-					"background-color":"#D9D9D9",
-					"text-font":{"color":"#333333"}
-				},
-				"disabled-state":
-				{
-					"border-color":"#FFFFFF",
-					"background-color":"#FFFFFF",
-					"text-font":{"color":"#999999"}
-				}
-			},
-			"scroll-spinner":
-			{
-				"normal-state":
-				{
-					"border-color": "#CCCCCC",
-					"background-color" : "#F0F0F0",
-					"up-arrow-image" : { "file": "tabbedbar-scroll-spinnner-up.png" },
-					"down-arrow-image" : { "file": "tabbedbar-scroll-spinnner-down.png" }
-				},
-				"hover-state":
-				{
-					"border-color": "#78C2FF",
-					"background-color" : "#E6F0FA",
-					"up-arrow-image" : { "file": "tabbedbar-scroll-spinnner-up.png" },
-					"down-arrow-image" : { "file": "tabbedbar-scroll-spinnner-down.png" }
-				},
-				"pressed-state":
-				{
-					"border-color": "#63AAE5",
-					"background-color" : "#D2E4F6",
-					"up-arrow-image" : { "file": "tabbedbar-scroll-spinnner-up.png" },
-					"down-arrow-image" : { "file": "tabbedbar-scroll-spinnner-down.png" }
-				}
-			}
-		},
-		"tooltip":
-		{
-			"background-color":"#FAFAFA",
-			"border-color":"#CCCCCC",
-			"text-font":{"color":"#333333"}
 		}
 	},
   	"window": 
